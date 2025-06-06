@@ -1,0 +1,4 @@
+<h1>Admin Panel</h1>
+<ul>
+{% for item in items %}<li><a href="/edit/{{ item.id }}">Edit {{ item.id }}</a></li>{% endfor %}
+</ul>
